@@ -1,0 +1,5 @@
+{
+  "name": "demo-auth-service",
+  "version": "0.0.0",
+  "description": "Demo microservice for BOSS versioning — Tier 1 Critical (Auth/Identity Service)"
+}
