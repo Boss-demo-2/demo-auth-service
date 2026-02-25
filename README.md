@@ -43,3 +43,7 @@ When raising a PR to `uat`, apply one of these labels:
 - **Tier**: 1 — Critical
 - **Simulates**: Auth / Identity Service
 - **Priority**: Highest — any change has high impact on BOSS version
+
+
+## Demo Test
+This commit triggers the UAT Release workflow and creates v1.1.0.
