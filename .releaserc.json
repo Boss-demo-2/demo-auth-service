@@ -5,10 +5,11 @@
             "preset": "angular",
             "releaseRules": [
                 { "breaking": true, "release": "major" },
-                { "type": "feat",   "release": "minor" },
+                { "type": "major",  "release": "major" },
                 { "type": "feat!",  "release": "major" },
-                { "type": "fix",    "release": "patch" },
+                { "type": "feat",   "release": "minor" },
                 { "type": "fix!",   "release": "major" },
+                { "type": "fix",    "release": "patch" },
                 { "type": "chore",  "release": "minor" }
             ]
         }],
