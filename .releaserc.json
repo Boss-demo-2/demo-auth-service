@@ -4,13 +4,11 @@
         ["@semantic-release/commit-analyzer", {
             "preset": "angular",
             "releaseRules": [
-                { "breaking": true, "release": "major" },
-                { "type": "major",  "release": "major" },
-                { "type": "feat!",  "release": "major" },
-                { "type": "feat",   "release": "minor" },
-                { "type": "fix!",   "release": "major" },
-                { "type": "fix",    "release": "patch" },
-                { "type": "chore",  "release": "minor" }
+                { "breaking": true,    "release": "major" },
+                { "type": "breaking",  "release": "major" },
+                { "type": "feat",      "release": "minor" },
+                { "type": "fix",       "release": "patch" },
+                { "type": "chore",     "release": "minor" }
             ]
         }],
         "@semantic-release/release-notes-generator",
