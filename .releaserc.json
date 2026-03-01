@@ -4,12 +4,12 @@
         ["@semantic-release/commit-analyzer", {
             "preset": "angular",
             "releaseRules": [
+                { "breaking": true, "release": "major" },
                 { "type": "feat",   "release": "minor" },
                 { "type": "feat!",  "release": "major" },
                 { "type": "fix",    "release": "patch" },
                 { "type": "fix!",   "release": "major" },
-                { "type": "chore",  "release": "minor" },
-                { "breaking": true, "release": "major" }
+                { "type": "chore",  "release": "minor" }
             ]
         }],
         "@semantic-release/release-notes-generator",
